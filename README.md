@@ -1,3 +1,60 @@
+# Projeto: Consultas em Banco de Dados | SQL Server - SSMS
+
+Este projeto envolve a implementação de 12 consultas específicas em um banco de dados relacional. As consultas foram elaboradas com o objetivo de demonstrar a capacidade de manipulação de dados e a compreensão da estrutura do banco de dados.
+
+## Objetivo
+
+- Demonstrar o conhecimento de SQL e a capacidade de escrever consultas complexas para recuperar dados de um banco de dados relacional.
+- Compreender as relações entre as tabelas e utilizar **JOINs** para combinar dados de diferentes tabelas.
+- Utilizar funções agregadas e cláusulas **WHERE** para filtrar e resumir dados.
+
+## Detalhes da Implementação
+
+As consultas foram implementadas em linguagem **SQL**, utilizando as seguintes tabelas:
+
+- **Atores**
+- **ElencoFilme**
+- **Filmes**
+- **FilmesGenero**
+- **Generos**
+
+## Consultas Realizadas
+
+1. **Buscar o `nome` e `ano dos filmes`.**
+2. **Buscar o `nome` e `ano dos filmes`, ordenados por `ordem crescente pelo ano`.**
+3. **Buscar pelo filme `"De Volta para o Futuro"`, trazendo o `nome`, `ano` e a `duração`.**
+4. **Buscar os filmes `lançados em 1997`.**
+5. **Buscar os filmes `lançados após o ano 2000`.**
+6. **Buscar os filmes com `duração maior que 100` e `menor que 150 minutos`, ordenando pela `duração em ordem crescente`.**
+7. **Buscar a `quantidade` de filmes `lançadas no ano`, `agrupando por ano`, ordenando pela `duração em ordem decrescente`.**
+8. **Buscar os `atores` do `gênero masculino`, retornando o `PrimeiroNome` e `UltimoNome`.**
+9. **Buscar os `atores` do `gênero feminino`, retornando o `PrimeiroNome`, `UltimoNome`, e ordenando pelo `PrimeiroNome`.**
+10. **Buscar o `nome do filme` e o `gênero`.**
+11. **Buscar o `nome do filme` e o `gênero do tipo "Mistério"`.**
+12. **Buscar o `nome do filme` e os `atores`, trazendo o `PrimeiroNome`, `UltimoNome` e seu `papel no filme`.**
+
+## Resultados
+
+As consultas foram executadas com sucesso, retornando os resultados esperados. As consultas demonstram a capacidade de manipulação de dados e a compreensão da estrutura do banco de dados.
+
+## Observações
+
+- O banco de dados utilizado neste projeto é apenas um exemplo.
+- As consultas podem ser adaptadas para diferentes bancos de dados e estruturas de tabelas.
+
+## Próximos Passos
+
+- Explorar outras funcionalidades de **SQL**, como funções de data e hora, subconsultas e views.
+- Desenvolver aplicações que utilizem os resultados das consultas para fornecer informações úteis aos usuários.
+- Implementar mecanismos de segurança e controle.
+
+
+##
+
+##
+
+
+
 # DIO - Trilha .NET - Banco de Dados
 www.dio.me
 
